@@ -1,0 +1,41 @@
+<html>
+<head>
+<title>MadLibsapp.py</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #a9b7c6;}
+.s1 { color: #6a8759;}
+.s2 { color: #cc7832;}
+</style>
+</head>
+<body bgcolor="#2b2b2b">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+MadLibsapp.py</font>
+</center></td></tr></table>
+<pre><span class="s0">name_author = input(</span><span class="s1">&quot;Enter your name: &quot;</span><span class="s0">)</span>
+<span class="s0">name_author_gender = input(</span><span class="s1">&quot;Are you a boy or a girl? Please enter: &quot;</span><span class="s0">)</span>
+<span class="s2">if </span><span class="s0">name_author_gender == </span><span class="s1">&quot;boy&quot;</span><span class="s0">:</span>
+    <span class="s0">name_author_genderpronoun = </span><span class="s1">&quot;he&quot;</span>
+    <span class="s0">name_author_genderpronoun2 = </span><span class="s1">&quot;his&quot;</span>
+<span class="s2">if </span><span class="s0">name_author_gender == </span><span class="s1">&quot;girl&quot;</span><span class="s0">:</span>
+    <span class="s0">name_author_genderpronoun = </span><span class="s1">&quot;she&quot;</span>
+    <span class="s0">name_author_genderpronoun2 = </span><span class="s1">&quot;her&quot;</span>
+<span class="s0">name_other = input(</span><span class="s1">&quot;Enter a friend's name: &quot;</span><span class="s0">)</span>
+<span class="s0">adjective_b = input (</span><span class="s1">&quot;Enter an adjective (like beautiful, big, nasty, something like that): &quot;</span><span class="s0">)</span>
+<span class="s0">adjective_a = input (</span><span class="s1">&quot;Enter another adjective (like ugly, small, sweet, something like that): &quot;</span><span class="s0">)</span>
+<span class="s0">animal = input (</span><span class="s1">&quot;Enter an animal: &quot;</span><span class="s0">)</span>
+<span class="s0">animal_name = input (</span><span class="s1">&quot;Enter an adjective ending with 'y' (like silly, snuggly, tricky): &quot;</span><span class="s0">)</span>
+<span class="s0">place = input (</span><span class="s1">&quot;Enter a place you like to go (like park, library, zoo): &quot;</span><span class="s0">)</span>
+<span class="s0">print(</span><span class="s1">&quot;This is a story by &quot; </span><span class="s0">+ name_author + </span><span class="s1">&quot;.&quot;</span><span class="s0">)</span>
+<span class="s0">print(</span><span class="s1">&quot;A long time ago, in a faraway kingdom, there lived a &quot; </span><span class="s0">+ adjective_a + </span><span class="s1">&quot; &quot; </span><span class="s0">+ name_author_gender + </span><span class="s1">&quot; named &quot; </span><span class="s0">+ name_author + </span><span class="s1">&quot;.&quot;</span><span class="s0">)</span>
+<span class="s0">print(</span><span class="s1">&quot;And &quot; </span><span class="s0">+ name_author_genderpronoun + </span><span class="s1">&quot; had a &quot; </span><span class="s0">+ adjective_b + </span><span class="s1">&quot; friend named &quot; </span><span class="s0">+ name_other + </span><span class="s1">&quot;.&quot;</span><span class="s0">)</span>
+<span class="s0">print(name_author_genderpronoun.capitalize() + </span><span class="s1">&quot; also had a pet &quot; </span><span class="s0">+ animal + </span><span class="s1">&quot; named &quot; </span><span class="s0">+ animal_name.capitalize() + </span><span class="s1">&quot;.&quot;</span><span class="s0">)</span>
+<span class="s0">print(</span><span class="s1">&quot;One day, &quot; </span><span class="s0">+ name_author + </span><span class="s1">&quot; lost &quot; </span><span class="s0">+ name_author_genderpronoun2 + </span><span class="s1">&quot; pet &quot; </span><span class="s0">+ animal + </span><span class="s1">&quot;.&quot;</span><span class="s0">)</span>
+<span class="s0">print(</span><span class="s1">&quot;</span><span class="s2">\&quot;</span><span class="s1">Oh no!</span><span class="s2">\&quot; </span><span class="s1">&quot; </span><span class="s0">+ name_author_genderpronoun + </span><span class="s1">&quot; cried. </span><span class="s2">\&quot;</span><span class="s1">I don't know where &quot; </span><span class="s0">+ animal_name.capitalize() + </span><span class="s1">&quot; is!</span><span class="s2">\&quot;</span><span class="s1">&quot;</span><span class="s0">)</span>
+<span class="s0">print(</span><span class="s1">&quot;But just then &quot; </span><span class="s0">+ name_other + </span><span class="s1">&quot; walked through the door. </span><span class="s2">\&quot;</span><span class="s1">Sorry, I took &quot; </span><span class="s0">+ animal_name.capitalize() + </span><span class="s1">&quot; for a walk in the &quot; </span><span class="s0">+ place + </span><span class="s1">&quot;!</span><span class="s2">\&quot;</span><span class="s1">&quot;</span><span class="s0">)</span>
+<span class="s0">print(</span><span class="s1">&quot;And everyone laughed and was happy. The end.&quot;</span><span class="s0">)</span>
+</pre>
+</body>
+</html>
